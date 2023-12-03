@@ -1,7 +1,8 @@
 import React from 'react';
 
 const DynamicPage = ({params, searchParams}) => {
-    console.log(searchParams);
+    // console.log(params);
+    // console.log(searchParams);
     return (
         <div>
             This is Product dynamic page <strong>{params.id}</strong>  !!!
